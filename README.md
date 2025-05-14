@@ -1,11 +1,12 @@
 
 # WeBar1 – Mobilní bar a barmanské služby
 
-Tato stránka je připravena k publikaci přes GitHub Pages.
+Tato statická webová stránka je určena pro prezentaci barmanských služeb WeBar.
 
-## Postup:
-1. Nahraj do repozitáře `WeBar1`
-2. Nastav v Settings > Pages:
-   - Branch: main
-   - Folder: /(root)
-3. Web bude dostupný na: https://tvé-uživatelské-jméno.github.io/WeBar1
+## Jak spustit na GitHub Pages
+
+1. Nahraj tento repozitář na GitHub (např. do `WeBar1`).
+2. V repozitáři otevři záložku `Settings` → `Pages`.
+3. Vyber branch `main` a složku `/ (root)`.
+4. Ulož – stránka bude veřejně dostupná na:  
+   `https://<tvé-uživatelské-jméno>.github.io/WeBar1`
