@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="cs">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   WeBar
+  </title>
+  <style>
+   html { scroll-behavior: smooth; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fff; color: #000; }
+    header, nav, section, footer { max-width: 1000px; margin: auto; padding: 20px; }
+    header { text-align: center; padding: 40px 20px; }
+    header img { max-width: 150px; }
+    nav { display: flex; justify-content: center; gap: 20px; background-color: #f0f0f0; padding: 10px; position: sticky; top: 0; z-index: 1000; }
+    nav a { text-decoration: none; color: #000; font-weight: bold; }
+    section { padding-top: 40px; scroll-margin-top: 100px; }
+    .drink { display: flex; gap: 20px; margin-bottom: 20px; align-items: center; flex-wrap: wrap; }
+    .drink img { width: 150px; height: 150px; object-fit: cover; border-radius: 10px; }
+    .pricing-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    .pricing-table th, .pricing-table td { border: 1px solid #ccc; padding: 10px; }
+    .gallery-item { margin-bottom: 20px; }
+    .gallery-item img { width: 100%; max-width: 300px; border-radius: 10px; }
+    .gallery-item p { font-weight: bold; margin-top: 5px; }
+  </style>
+ </head>
+ <body>
+  <header>
+   <img alt="WeBar logo" src="https://i.ibb.co/0RSt8Mmr/logo.png"/>
+   <h1>
+    WeBar
+   </h1>
+   <p>
+    Mobilní bar a barmanské služby na míru
+   </p>
+  </header>
+  <nav>
+   <a href="#intro">
+    Úvod
+   </a>
+   <a href="#menu">
+    Bestsellers
+   </a>
+   <a href="#pricing">
+    Ceník
+   </a>
+   <a href="#gallery">
+    Fotogalerie
+   </a>
+   <a href="#contact">
+    Kontakt
+   </a>
+  </nav>
+  <section id="intro">
+   <h2>
+    Úvod
+   </h2>
+   <p>
+    <strong>
+     WeBar přináší bar tam, kde ho nejvíc oceníte – na vaši svatbu, oslavu nebo firemní mejdan.
+    </strong>
+    <br/>
+    <strong>
+     Stylový dřevěný bar, promyšlený výběr koktejlů, pohoda za barem, ale hlavně před ním.
+    </strong>
+    <br/>
+    Míchám s láskou, důrazem na atmosféru, detail a osobní přístup.
+   </p>
+   <p>
+    <strong>
+     Jmenuju se Honza a mixologie a bar jsou mou vášní.
+    </strong>
+    <br/>
+    Každou akci beru jako příležitost udělat z drinku zážitek. Ať už jde o svatbu v lese, večírek ve stodole nebo firemku v luxusu – přizpůsobím se místu, lidem i náladě.
+   </p>
+   <p>
+    <strong>
+     Vaše akce si zaslouží víc než jen nalít panáka.
+    </strong>
+    <br/>
+    Dopřejte sobě i hostům bar, co má styl – a drinky, na který se nezapomíná.
+   </p>
+  </section>
+  <section id="menu">
+   <h2>
+    Výběr TOP drinků
+   </h2>
+   <div class="drink">
+    <img alt="Gimlet" src="https://i.ibb.co/0RSt8Mmr/logo.png"/>
+    <div>
+     <h3>
+      Gimlet
+     </h3>
+     <p>
+      Gin, koriandr, kokos, bílý pepř, limeta, simple sirup.
+     </p>
+     <p>
+      Osvěžující a zároveň aromatický koktejl, ve kterém se snoubí citrusy a jemné koření.
+     </p>
+    </div>
+   </div>
+   <div class="drink">
+    <img alt="Dáma s Okurkou" src="https://i.ibb.co/bMwJxLPM/okurka.jpg"/>
+    <div>
+     <h3>
+      Dáma s Okurkou
+     </h3>
+     <p>
+      Vodka, okurkový fresh, limeta, bezinkový cordial, absinth, soda.
+     </p>
+     <p>
+      Lehký a osvěžující drink s jemnou vůní okurky a květinovým tónem, ideální pro letní chvíle a stylové dámy.
+     </p>
+    </div>
+   </div>
+   <div class="drink">
+    <img alt="Green Apple Highball" src="https://i.ibb.co/pBjnC1B5/greenapple.jpg"/>
+    <div>
+     <h3>
+      Green Apple Highball
+     </h3>
+     <p>
+      Bourbon, green apple cordial, Supasawa, soda.
+     </p>
+     <p>
+      Lehce nakyslý, osvěžující a perfektně vyvážený koktejl s bourbonem.
+     </p>
+    </div>
+   </div>
+   <div class="drink">
+    <img alt="Smoky Margharita" src="https://i.ibb.co/5X4KPsLJ/smoky.jpg"/>
+    <div>
+     <h3>
+      Smoky Margharita
+     </h3>
+     <p>
+      Tequila, mezcal, Circular Orange, Aperol, agáve sirup, limeta, zauzená sůl, espelette paprička.
+     </p>
+     <p>
+      Výrazná, kouřová a citrusová chuť v nečekané kombinaci, která zůstane v paměti.
+     </p>
+    </div>
+   </div>
+   <div class="drink">
+    <img alt="Espresso Martini" src="https://i.ibb.co/D3YRxkz/espresso.jpg"/>
+    <div>
+     <h3>
+      Espresso Martini
+     </h3>
+     <p>
+      Vodka, vanilka, kávový likér, cognac, demarera sirup, espresso.
+     </p>
+     <p>
+      Klasické všemi milované Espresso Martini s přidaným cognacem pro větší hloubku a eleganci.
+     </p>
+    </div>
+   </div>
+   <p>
+    <strong>
+     Tohle je jen moje top pětka.
+    </strong>
+    <br/>
+    Míchám rád a míchám podle vás – těchto pět je jen malou ukázkou mých oblíbených, které si získaly srdce (a chuťové pohárky) většiny hostů.
+   </p>
+  </section>
+  <section id="pricing">
+   <h2>
+    Ceník
+   </h2>
+   <table class="pricing-table">
+    <tr>
+     <th>
+      Počet drinků
+     </th>
+     <th>
+      Cena za drink
+     </th>
+     <th>
+      Počet variant
+     </th>
+    </tr>
+    <tr>
+     <td>
+      do 100
+     </td>
+     <td>
+      180 Kč
+     </td>
+     <td>
+      max. 2 druhy
+     </td>
+    </tr>
+    <tr>
+     <td>
+      100–200
+     </td>
+     <td>
+      170 Kč
+     </td>
+     <td>
+      max. 4 druhy
+     </td>
+    </tr>
+    <tr>
+     <td>
+      200–300
+     </td>
+     <td>
+      160 Kč
+     </td>
+     <td>
+      max. 6 druhů
+     </td>
+    </tr>
+    <tr>
+     <td>
+      300+
+     </td>
+     <td>
+      dle domluvy
+     </td>
+     <td>
+      dle domluvy
+     </td>
+    </tr>
+   </table>
+   <p>
+    <em>
+     Ceny jsou orientační a mohou se lišit dle nabídky, místa konání a rozsahu akce.
+    </em>
+   </p>
+  </section>
+  <section id="gallery">
+   <h2>
+    Fotogalerie – Koktejly
+   </h2>
+   <div class="gallery-item">
+    <img alt="Green Apple Highball" src="https://i.ibb.co/pBjnC1B5/greenapple.jpg"/>
+    <p>
+     Green Apple Highball
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Smoky Margharita" src="https://i.ibb.co/5X4KPsLJ/smoky.jpg"/>
+    <p>
+     Smoky Margharita
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Dáma s Okurkou" src="https://i.ibb.co/bMwJxLPM/okurka.jpg"/>
+    <p>
+     Dáma s Okurkou
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Rhubarb Gimlet" src="https://i.ibb.co/tMfcfKnL/rhubarb.jpg"/>
+    <p>
+     Rhubarb Gimlet
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Banana Fashioned" src="https://i.ibb.co/Z6y7CT9L/banana.jpg"/>
+    <p>
+     Banana Fashioned
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Espresso Martini" src="https://i.ibb.co/D3YRxkz/espresso.jpg"/>
+    <p>
+     Espresso Martini
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Rosado Sour" src="https://i.ibb.co/BVsPgMFK/rosado.jpg"/>
+    <p>
+     Rosado Sour
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Avant-groni" src="https://i.ibb.co/pB2nYTsd/avantgroni.jpg"/>
+    <p>
+     Avant-groni
+    </p>
+   </div>
+   <div class="gallery-item">
+    <img alt="Amaretto Sour" src="https://i.ibb.co/qLzNmqmr/amaretto.jpg"/>
+    <p>
+     Amaretto Sour
+    </p>
+   </div>
+   <h3>
+    Bar
+   </h3>
+   <div class="gallery-item">
+    <img alt="Bar setup" src="https://i.ibb.co/0RSt8Mmr/logo.png"/>
+    <p>
+     Ukázka mobilního baru
+    </p>
+   </div>
+   <h3>
+    Proběhlé akce
+   </h3>
+   <div class="gallery-item">
+    <img alt="Event" src="https://i.ibb.co/0RSt8Mmr/logo.png"/>
+    <p>
+     Momentky z akcí
+    </p>
+   </div>
+  </section>
+  <section id="contact">
+   <h2>
+    Kontakt
+   </h2>
+   <p>
+    Kontakt:
+    <strong>
+     events.webar@gmail.com
+    </strong>
+    |
+    <strong>
+     +420 774 925 781
+    </strong>
+   </p>
+  </section>
+  <footer>
+   <p style="text-align:center;">
+    © 2025 WeBar – Všechna práva vyhrazena
+   </p>
+  </footer>
+ </body>
+</html>
