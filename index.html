@@ -11,8 +11,8 @@
    header { text-align: center; padding: 20px }
   header img {
   width: 390px;
-  max-width: 100%;
-}
+  max-width: 100%;}
+  
    nav { display: flex; justify-content: center; gap: 30px; background-color: #f0f0f0; padding: 10px; position: sticky; top: 0; z-index: 1000; }
    nav a { text-decoration: none; color: #000; font-weight: bold; }
    section { padding-top: 20px; scroll-margin-top: 50px; }
@@ -20,7 +20,6 @@
    .drink img { width: 150px; height: 150px; object-fit: cover; border-radius: 10px; }
 
    /* === BESTSELLERS TEXT / FOTO === */
-
 .drink {
     display: flex;
     gap: 30px;
@@ -28,9 +27,15 @@
 .drink-text {
     flex: 1;}
 .drink-image img {
-    width: 250px;
+    width: 100%;
+    height: auto
+    aspect-ratio: 1 / 1;
     border-radius: 12px;}
-
+/* ===Zobrazení na mobilu === */
+@media (max-width: 768px) {
+    .drink {
+        flex-direction: column;}
+}
 
    /* === GALERIE GRID === */
    .gallery-grid {
